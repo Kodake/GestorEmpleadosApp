@@ -1,4 +1,4 @@
-<%@ include file="comunes/cabeceras.jsp"%>
+<%@ include file="comunes/cabecera.jsp"%>
 
 <%@ include file="comunes/navegacion.jsp"%>
 
@@ -7,7 +7,7 @@
         <h3>Gestor de Empleados</h3>
     </div>
 
-    <table class="table table-hover table-striped align-middle">
+    <table class="table table-hover table-striped table-bordered align-middle">
         <thead class="table-dark text-center">
         <tr>
             <th scope="col">Id</th>
@@ -39,7 +39,7 @@
                             <c:param name="idEmpleado" value="${empleado.idEmpleado}"/>
                         </c:url>
                     </c:set>
-                    <a href="${urlEliminar}" class="btn btn-danger btn-sm me-3">Eliminar</a>
+                    <a href="${urlEliminar}" class="btn btn-danger btn-sm">Eliminar</a>
                 </td>
             </tr>
         </c:forEach>

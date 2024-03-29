@@ -1,4 +1,4 @@
-<%@ include file="comunes/cabeceras.jsp"%>
+<%@ include file="comunes/cabecera.jsp"%>
 
 <%@ include file="comunes/navegacion.jsp"%>
 
